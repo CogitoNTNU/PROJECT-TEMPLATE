@@ -58,7 +58,7 @@ repos:
         types_or: [ python, pyi ]
         args: [ --fix ]
       - id: ruff-format
-        name: "🐍 python · Format with Ruff"
+        name: "🐍 python · Format with Ruff. Add the newly formatted code using git add."
         types_or: [ python, pyi ]
         exclude: |
           (?x)^(
