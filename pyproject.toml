@@ -20,7 +20,7 @@ docs = [
     "mkdocs-api-autonav>=0.3.0",
     "mkdocs-autoapi>=0.4.1",
     "mkdocs-awesome-nav>=3.1.2",
-    "mkdocs-material>=9.6.16",
+    "mkdocs-material>=9.7.7",
     "mkdocstrings>=0.30.0",
     "mkdocstrings-python>=1.16.12",
 ]
