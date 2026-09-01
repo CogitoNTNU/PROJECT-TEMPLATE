@@ -44,7 +44,14 @@ jobs:
       - name: Run root tests
         run: |
             uv run pytest --doctest-modules --cov=src --cov-report=html
-
+      
+      - name: Upload Coverage Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: code-coverage-report
+          path: htmlcov/ 
+          if-no-files-found: warn
+          retention-days: 7 
 
   deploy:
     name: Deploy to GitHub Pages
